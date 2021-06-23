@@ -1,0 +1,9 @@
+defaults:
+  - db: # DB config name
+  - solver: igscmaes
+seed: 1234
+processing_dir: './processing'
+output_path: './out'
+hydra:
+  run:
+    dir: ${processing_dir}

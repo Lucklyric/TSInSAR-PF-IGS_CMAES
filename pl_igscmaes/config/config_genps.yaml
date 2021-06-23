@@ -1,0 +1,7 @@
+defaults:
+  - db: # db config_name
+processing_dir: './processing'
+output_path: './ps.json'
+hydra:
+  run:
+    dir: ${processing_dir}

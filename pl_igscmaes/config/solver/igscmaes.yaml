@@ -1,0 +1,20 @@
+# @package _group_
+_target_: pl_igscmaes.solver.igscmaes.IGSCMAES
+name: igscmaes
+max_iter: 10000
+mr_bound: [-25, 25]
+he_bound: [-200, 200]
+mr_grid_unit: 5 
+he_grid_unit: 20 
+loss_map_scale: 10
+num_of_inits: 5
+loss_thresh: 0.3
+sample_scale_bound: [1, 8]
+cma_args:
+  sigma0: 0.01 
+  inopts:
+      popsize: 30
+      bounds: [-10, 10]
+      tolfacupx: 1000000000
+      seed: 2019
+      verb_disp: False

@@ -1,0 +1,10 @@
+# @package _group_
+_target_: pl_igscmaes.data.dataset.SimFittingDataset
+name: # db name 
+bperp_dir: # BPerp Dir in float bytes 
+bperp_ext: '.bperp'
+conv1: # conv_def
+conv2: # conv_top
+width: 1500 
+col: 0
+sim_signals_path: # sim signals in numpy float 
